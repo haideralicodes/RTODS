@@ -1,0 +1,80 @@
+.body{
+    background-color: rgb(0 0 0)
+}
+
+.bg-body-tertiary {
+    background-color: rgb(0 0 0) !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.btn-outline-success {
+    --darkreader-text--bs-btn-color: rgb(255, 255, 255);
+    --darkreader-border--bs-btn-border-color: rgb(6, 190, 6);
+    --darkreader-text--bs-btn-hover-color: rgb(255, 255, 255);
+    --darkreader-bg--bs-btn-hover-bg: rgb(6, 190, 6);
+    --darkreader-border--bs-btn-hover-border-color: rgb(6, 190, 6);
+    --darkreader-bg--bs-btn-focus-shadow-rgb: 19, 103, 64;
+    --darkreader-text--bs-btn-active-color: #dcdbd8;
+    --darkreader-bg--bs-btn-active-bg: #136740;
+    --darkreader-border--bs-btn-active-border-color: #1ea668;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --darkreader-text--bs-btn-disabled-color: #6fdba9;
+    --darkreader-bg--bs-btn-disabled-bg: rgba(0, 0, 0, 0);
+    --darkreader-border--bs-btn-disabled-border-color: #1ea668;
+    --darkreader-bgimg--bs-gradient: none;
+}
+
+.btn-outline-primary {
+    --darkreader-text--bs-btn-color: #ffffff;
+    --darkreader-border--bs-btn-border-color: #0143a5;
+    --darkreader-text--bs-btn-hover-color: #ffffff;
+    --darkreader-bg--bs-btn-hover-bg: #024cba;
+    --darkreader-border--bs-btn-hover-border-color: #0143a5;
+    --darkreader-bg--bs-btn-focus-shadow-rgb: 2, 76, 186;
+    --darkreader-text--bs-btn-active-color: #dcdbd8;
+    --darkreader-bg--bs-btn-active-bg: #024cba;
+    --darkreader-border--bs-btn-active-border-color: #0143a5;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --darkreader-text--bs-btn-disabled-color: #218df0;
+    --darkreader-bg--bs-btn-disabled-bg: rgba(0, 0, 0, 0);
+    --darkreader-border--bs-btn-disabled-border-color: #0143a5;
+    --darkreader-bgimg--bs-gradient: none;
+}
+
+.btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+    padding: 7px 25px;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 49px;
+    font-family:monospace;
+    font-weight: bolder;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 9rem;
+}
+
+.carousel-caption {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    background-color: black;
+    width: 1400;
+}
+
