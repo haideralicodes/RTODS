@@ -36,13 +36,78 @@
               </li>
             </ul>
             <div class="d-grid gap-2 d-md-block">
-              <button type="button" class="rounded-pill btn btn-outline-primary me-md-2"> Sign Up </button>
-              <button type="button" class="rounded-pill btn btn-outline-success me-md-2"> Login </button>
+              <button type="button" class="rounded-pill btn btn-outline-primary me-md-2" data-bs-toggle="modal" data-bs-target="#signupModal"> Sign Up </button>
+              <button type="button" class="rounded-pill btn btn-outline-success me-md-2" data-bs-toggle="modal" data-bs-target="#loginModal"> Login </button>
             </div>
           </div>
         </div>
       </nav>
     </header>
+
+    <!--Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login to iCODER</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--SignUp Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Get an iCODER</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Create Account</button>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <section id = "Home">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -54,7 +119,7 @@
                 <img src="round.png" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="video_1">
-                    <video src="1.mp4" height="800" width="660"></video>
+                    <video src="1.mp4" autoplay height="800" width="660"></video>
                   </div>
                 </div>
               </div>
