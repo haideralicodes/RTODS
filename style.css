@@ -62,9 +62,20 @@ h1{
     font-weight: bolder;
 }
 
+h2{
+    font-size: 49px;
+    font-family:monospace;
+    font-weight: bolder;
+    color: black;
+}
+
 p {
     margin-top: 0;
     margin-bottom: 9rem;
+}
+
+.carousel-caption {
+    color: rgb(255 255 255);
 }
 
 .carousel-caption {
@@ -78,3 +89,46 @@ p {
     width: 1400;
 }
 
+.round {
+    height: 580px;
+    width: 620px;
+    margin-left: 520px;
+}
+
+.video_1{
+    height: 700px;
+    width: 800px;
+    margin-left: 200px;
+    padding: 25px;
+}
+
+.txt{
+    padding-right: 1px;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: -175px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt h1{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+
+.txt p{
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tryNow a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+    padding: 7px 55px;
+
+}
